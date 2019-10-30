@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     message = decrypt(decCypher,key)
     #this is the decrypted message
-    cypher = encrypt(message, key)
+    cypher = encrypt(encMessage, key)
     #this is the encrypted cypher
 
     print("Your decrypted message: " + message + "\nYour encrypted cypher: " + cypher)
